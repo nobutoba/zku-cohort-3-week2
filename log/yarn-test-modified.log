@@ -1,0 +1,59 @@
+yarn run v1.22.15
+warning ../../../package.json: No license field
+$ npx hardhat test
+No need to generate any newer typings.
+
+
+  Custom Tests
+Duplicate definition of Transfer (Transfer(address,address,uint256,bytes), Transfer(address,address,uint256))
+	[tornadoPool, omniBridge, alice] = [ '0', '0', '0' ] at first
+	[tornadoPool, omniBridge, alice] = [ '0', '0.1', '0' ] after token.transfer
+	[tornadoPool, omniBridge, alice] = [ '0.1', '0', '0' ] after omniBridge.execute1
+BigNumber.toString does not accept any parameters; base-10 is assumed
+	[tornadoPool, omniBridge, alice] = [ '0.1', '0', '0' ] after omniBridge.execute2
+	[tornadoPool, omniBridge, alice] = [ '0.02', '0', '0.08' ] after transaction
+    ✓ [assignment] ii. deposit 0.1 ETH in L1 -> withdraw 0.08 ETH in L2 -> assert balances (4897ms)
+	[tornadoPool, omniBridge, bob] = [ '0', '0', 0 ] at first
+	[tornadoPool, omniBridge, bob] = [ '0', '0.13', 0 ] after token.transfer
+	[tornadoPool, omniBridge, bob] = [ '0.13', '0', 0 ] after omniBridge.execute1
+	[tornadoPool, omniBridge, bob] = [ '0.13', '0', 0 ] after omniBridge.execute2
+	[tornadoPool, omniBridge, bob] = [ '0.13', '0', 0 ] after transaction
+	[tornadoPool, omniBridge, bob] = [ '0.07', '0', 0.06 ] after transaction
+	[tornadoPool, omniBridge, bob] = [ '0', '0.07', 0.06 ] after transaction
+    ✓ [assignment] iii. see assignment doc for details (5655ms)
+
+  TornadoPool
+    ✓ encrypt -> decrypt should work
+Duplicate definition of Transfer (Transfer(address,address,uint256,bytes), Transfer(address,address,uint256))
+    ✓ constants check (367ms)
+    ✓ should register and deposit (1256ms)
+    ✓ should deposit, transact and withdraw (3736ms)
+    ✓ should deposit from L1 and withdraw to L1 (2545ms)
+    ✓ should transfer funds to multisig in case of L1 deposit fail (751ms)
+    ✓ should revert if onTransact called directly (774ms)
+    ✓ should work with 16 inputs (3986ms)
+    ✓ should be compliant (2559ms)
+    Upgradeability tests
+      ✓ admin should be gov
+      ✓ non admin cannot call (58ms)
+      ✓ should configure
+
+  MerkleTreeWithHistory
+    #constructor
+      ✓ should correctly hash 2 leaves (138ms)
+      ✓ should initialize
+      ✓ should have correct merkle root
+    #insert
+      ✓ should insert (189ms)
+hasher gas 23168
+      ✓ hasher gas (280ms)
+    #isKnownRoot
+      ✓ should return last root (82ms)
+      ✓ should return older root (144ms)
+      ✓ should fail on unknown root (98ms)
+      ✓ should not return uninitialized roots (76ms)
+
+
+  23 passing (28s)
+
+Done in 31.11s.

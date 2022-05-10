@@ -1,0 +1,24 @@
+npm WARN deprecated ganache-core@2.13.2: ganache-core is now ganache; visit https://trfl.io/g7 for details
+npm WARN deprecated ganache-core@2.13.2: ganache-core is now ganache; visit https://trfl.io/g7 for details
+npm WARN deprecated testrpc@0.0.1: testrpc has been renamed to ganache-cli, please use this package from now on.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated @ensdomains/ens@0.4.5: Please use @ensdomains/ens-contracts
+npm WARN deprecated @ensdomains/resolver@0.2.4: Please use @ensdomains/ens-contracts
+
+added 1452 packages, and audited 1456 packages in 41s
+
+116 packages are looking for funding
+  run `npm fund` for details
+
+54 vulnerabilities (11 moderate, 42 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.

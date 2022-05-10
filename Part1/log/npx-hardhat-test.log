@@ -1,0 +1,9 @@
+Compiled 2 Solidity files successfully
+
+
+  MerkleTree
+    ✔ Insert two new leaves and verify the first leaf in an inclusion proof (3248ms)
+
+
+  1 passing (5s)
+

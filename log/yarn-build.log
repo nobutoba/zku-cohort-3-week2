@@ -1,0 +1,256 @@
+yarn run v1.22.15
+warning ../../../package.json: No license field
+$ npm run circuit && npm run compile
+
+> tornado-pool@1.0.0 circuit
+> ./scripts/buildCircuit.sh 2 && ./scripts/buildCircuit.sh 16
+
+NConstraints Before: 9688
+NSignals Before: 16531
+Reduce Constants
+reducing constants:  0
+Reduce Constraints
+indexing constraints: 0/9668
+reducing constraints: 0/9668   reduced: 0
+substituting constraints: 0/5554
+removing signals: 0/5596
+Removed: 5596 TotalConstraints: 9668
+reducing constraints: 0/5554   reduced: 0
+substituting constraints: 0/20
+removing signals: 0/40
+Removed: 5636 TotalConstraints: 9668
+reducing constraints: 0/20   reduced: 0
+substituting constraints: 0/86
+removing signals: 0/20
+Removed: 5656 TotalConstraints: 9668
+reducing constraints: 0/86   reduced: 0
+Removed: 5656 TotalConstraints: 9668
+reordering constraints: 0/9668
+NConstraints After: 4012
+Classify Signals
+marking as internal: 0/4012
+classify signals: 0/16531
+generate witness (counting):  0
+generate witness (counting):  10000
+seting id:  0
+seting id:  10000
+writing constraint:  0
+writing wire2label map: 0/4032
+Generating wasm...
+buildHeader...
+buildEntryTables...
+buildEntryTables component: 0/2909
+buildCode...
+buildCode component: 0/2909
+buildComponentsArray...
+buildComponentsArray component: 0/2909
+buildMapIsInput...
+buildMapIsInput signal: 0/16531
+buildWit2Sig...
+buildWit2Sig signal: 0/16531
+Symbols saved: 0
+Symbols saved: 10000
+constructionPhase: .808
+reduceConstants: .131
+reduceConstraints: .857
+classifySignals: .035
+generateWitnessNames: .023
+generateR1cs: .156
+generateWasm: 02.530
+generateSyms: .001
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		75a28ec9 e5e56ab4 3660bb72 53a4975d
+		8c171f02 1cd4a17f ad8e0d9c ad1b148a
+		ce572b7c 2b963b62 62fb1491 f051fbe3
+		a0939a1f c5bed8aa 59caab3e 93065654
+Enter a random text. (Entropy): [32;22m[INFO]  [39;1msnarkJS[0m: Circuit Hash: 
+		75a28ec9 e5e56ab4 3660bb72 53a4975d
+		8c171f02 1cd4a17f ad8e0d9c ad1b148a
+		ce572b7c 2b963b62 62fb1491 f051fbe3
+		a0939a1f c5bed8aa 59caab3e 93065654
+[32;22m[INFO]  [39;1msnarkJS[0m: Contribution Hash: 
+		9490649d 6b5cf302 b4042e31 952feb16
+		d401a7c0 46d5d167 821ab330 956de88a
+		a6ae0a92 3ce72272 06a4abdf 29b51511
+		4407bc2f d7c81530 fe86f3da 8a6b9806
+[32;22m[INFO]  [39;1msnarkJS[0m: Curve: bn-128
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Wires: 4032
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Constraints: 4012
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Private Inputs: 24
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Public Inputs: 7
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Labels: 16531
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Outputs: 0
+Constraints: 10000
+Constraints: 20000
+Constraints: 30000
+Constraints: 40000
+Constraints: 50000
+Constraints: 60000
+NConstraints Before: 67018
+NSignals Before: 116295
+Reduce Constants
+reducing constants:  0
+reducing constants:  10000
+reducing constants:  20000
+reducing constants:  30000
+reducing constants:  40000
+reducing constants:  50000
+reducing constants:  60000
+Reduce Constraints
+indexing constraints: 0/66872
+reducing constraints: 0/66872   reduced: 0
+reducing constraints: 10000/66872   reduced: 5758
+reducing constraints: 20000/66872   reduced: 11784
+reducing constraints: 30000/66872   reduced: 17918
+reducing constraints: 40000/66872   reduced: 23929
+reducing constraints: 50000/66872   reduced: 30020
+reducing constraints: 60000/66872   reduced: 36071
+substituting constraints: 0/39952
+substituting constraints: 10000/39952
+substituting constraints: 20000/39952
+substituting constraints: 30000/39952
+removing signals: 0/40246
+Removed: 40246 TotalConstraints: 66872
+reducing constraints: 0/39952   reduced: 0
+reducing constraints: 10000/39952   reduced: 76
+reducing constraints: 20000/39952   reduced: 148
+reducing constraints: 30000/39952   reduced: 222
+substituting constraints: 0/146
+removing signals: 0/292
+Removed: 40538 TotalConstraints: 66872
+reducing constraints: 0/146   reduced: 0
+substituting constraints: 0/618
+removing signals: 0/146
+Removed: 40684 TotalConstraints: 66872
+reducing constraints: 0/618   reduced: 0
+Removed: 40684 TotalConstraints: 66872
+reordering constraints: 0/66872
+NConstraints After: 26188
+Classify Signals
+marking as internal: 0/26188
+classify signals: 0/116295
+classify signals: 100000/116295
+generate witness (counting):  0
+generate witness (counting):  10000
+generate witness (counting):  20000
+generate witness (counting):  30000
+generate witness (counting):  40000
+generate witness (counting):  50000
+generate witness (counting):  60000
+generate witness (counting):  70000
+generate witness (counting):  80000
+generate witness (counting):  90000
+generate witness (counting):  100000
+generate witness (counting):  110000
+seting id:  0
+seting id:  10000
+seting id:  20000
+seting id:  30000
+seting id:  40000
+seting id:  50000
+seting id:  60000
+seting id:  70000
+seting id:  80000
+seting id:  90000
+seting id:  100000
+seting id:  110000
+writing constraint:  0
+writing constraint:  10000
+writing constraint:  20000
+writing wire2label map: 0/26187
+Generating wasm...
+buildHeader...
+buildEntryTables...
+buildEntryTables component: 0/21389
+buildCode...
+buildCode component: 0/21389
+buildComponentsArray...
+buildComponentsArray component: 0/21389
+buildMapIsInput...
+buildMapIsInput signal: 0/116295
+buildWit2Sig...
+buildWit2Sig signal: 0/116295
+Symbols saved: 0
+Symbols saved: 10000
+Symbols saved: 20000
+Symbols saved: 30000
+Symbols saved: 40000
+Symbols saved: 50000
+Symbols saved: 60000
+Symbols saved: 70000
+Symbols saved: 80000
+Symbols saved: 90000
+Symbols saved: 100000
+Symbols saved: 110000
+constructionPhase: 03.776
+reduceConstants: .767
+reduceConstraints: 05.293
+classifySignals: .173
+generateWitnessNames: .132
+generateR1cs: .637
+generateWasm: 04.672
+generateSyms: .000
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		223ab77b 371af4e0 c46767d5 23cdddc4
+		30aa0c0c 7e15f523 8455cae8 94b9fcda
+		727ad3dc 8b51a991 72931ad1 f1922116
+		23d5f761 e60806f8 151fbbdc 8952e5e8
+Enter a random text. (Entropy): [32;22m[INFO]  [39;1msnarkJS[0m: Circuit Hash: 
+		223ab77b 371af4e0 c46767d5 23cdddc4
+		30aa0c0c 7e15f523 8455cae8 94b9fcda
+		727ad3dc 8b51a991 72931ad1 f1922116
+		23d5f761 e60806f8 151fbbdc 8952e5e8
+[32;22m[INFO]  [39;1msnarkJS[0m: Contribution Hash: 
+		feb50133 b29bbcfd ae39130d 8236c4c0
+		95490864 b16ec58c 359f2697 b9456abc
+		758a1d4c d9ed5777 e0890527 53458325
+		3d91033c a58d2d1d 88b41d2a 33a748b6
+[32;22m[INFO]  [39;1msnarkJS[0m: Curve: bn-128
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Wires: 26187
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Constraints: 26188
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Private Inputs: 150
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Public Inputs: 21
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Labels: 116295
+[32;22m[INFO]  [39;1msnarkJS[0m: # of Outputs: 0
+
+> tornado-pool@1.0.0 compile
+> npx hardhat compile && yarn compile:hasher
+
+Downloading compiler 0.4.24
+Compiling 1 file with 0.4.24
+Downloading compiler 0.7.5
+Compiling 9 files with 0.7.5
+omnibridge/contracts/helpers/WETHOmnibridgeRouter.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+omnibridge/contracts/interfaces/IOmnibridge.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+omnibridge/contracts/interfaces/IWETH.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+omnibridge/contracts/libraries/AddressHelper.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+omnibridge/contracts/libraries/Bytes.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+omnibridge/contracts/upgradeable_contracts/Claimable.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+omnibridge/contracts/upgradeable_contracts/Sacrifice.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+omnibridge/contracts/upgradeable_contracts/modules/OwnableModule.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+Downloading compiler 0.7.6
+Compiling 21 files with 0.7.6
+Generating typings for: 53 artifacts in dir: src/types for target: ethers-v5
+Successfully generated 79 typings!
+Compilation finished successfully
+warning ../../../package.json: No license field
+$ npx hardhat hasher
+Done in 117.11s.

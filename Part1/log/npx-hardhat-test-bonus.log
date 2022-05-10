@@ -1,0 +1,9 @@
+
+
+  MerkleTree
+    ✔ Insert two new leaves and verify the first leaf in an inclusion proof (3122ms)
+    ✔ Insert two new leaves and verify the second leaf in an inclusion proof (2003ms)
+
+
+  2 passing (6s)
+
